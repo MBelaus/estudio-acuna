@@ -1,0 +1,62 @@
+/* LOGO Y DATOS DE CONTACTO */
+/* COLOR DE LA MARCA   rgba(32,49,67,1) #203143 */
+/* AZUL MAS OSCURO PARA HOVERS rgba(23, 40, 57, 1)  #102941*/
+
+@media (max-width: 992px) {
+  .datos {
+    text-align: center;
+    margin-left: 20px;
+  }
+  #logo {
+    justify-content: center;
+  }
+}
+
+/* UTILS */
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* UTILS */
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  padding-top: 10px;
+  /* background-color: #e3e5e6; */
+}
+
+.logo {
+  width: 250px;
+  height: 100px;
+  margin-left: 80px;
+  border-left: 2px solid;
+  border-right: 2px solid;
+}
+
+.datos {
+  padding-top: 0px;
+}
+
+i {
+  margin-right: 7px;
+  height: 5%;
+  color: #203143;
+}
+
+.datos-contato {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+li {
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+}
