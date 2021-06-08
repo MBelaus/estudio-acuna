@@ -1,0 +1,17 @@
+/* LOGO Y DATOS DE CONTACTO */
+/* COLOR DE LA MARCA   rgba(32,49,67,1) #203143 */
+/* AZUL MAS OSCURO PARA HOVERS rgba(23, 40, 57, 1)  #102941*/
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+.bg {
+  margin-top: 100px;
+  background-color: #203143;
+  height: 800px;
+}
+
+.cards {
+  height: 800px;
+}

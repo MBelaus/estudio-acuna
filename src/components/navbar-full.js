@@ -9,11 +9,11 @@ class FullNavbar extends React.Component {
           <div className="row">
             <div className="col-lg-12 nopadding">
               <ul className="nav-full">
-                <li>Estudio Jurídico</li>
-                <li className="esp">Especialidades</li>
-                <li>Abogados</li>
-                <li className="pub">Blog</li>
-                <li>Contacto</li>
+                <li className="hvr-underline-from-center">Estudio Jurídico</li>
+                <li className="hvr-underline-from-center">Especialidades</li>
+                <li className="hvr-underline-from-center">Abogados</li>
+                <li className="hvr-underline-from-center">Blog</li>
+                <li className="hvr-underline-from-center">Contacto</li>
               </ul>
             </div>
           </div>
