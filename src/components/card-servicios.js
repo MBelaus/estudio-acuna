@@ -5,9 +5,17 @@ class CardServicio extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="card d-flex justify-content-center align-items-center flip-card-container">
-          <img src={this.props.img} className="img-service filter" alt="..." />
-          <h6 id="titulo">{this.props.title}</h6>
+        <div className="card flip-card d-flex justify-content-center align-items-center">
+          <div className="flip-card-inner">
+            <div className="flip-card-front d-flex flex-column align-items-center justify-content-center">
+              <img src={this.props.img} className="img-service filter" alt="..." />
+              <h6 id="titulo">{this.props.title}</h6>
+            </div>
+            <div className="flip-card-back d-flex flex-column justify-content-center align-items-center">
+              <h6 className="mb-4">{this.props.title}</h6>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt neque, veritatis hic</p>
+            </div>
+          </div>
         </div>
 
         {/*         <div className="card">
