@@ -37,7 +37,7 @@ class Hero extends React.Component {
                   <textarea name="descripcion" className="form-control" id="descripcion" rows="3" placeholder="Contanos brevemente tu caso..."></textarea>
                 </div>
                 <div className="col-3 mx-auto">
-                  <button type="submit" className="btn-1 btn btn-lg">
+                  <button type="submit" className="btn btn-hero hvr-sweep-to-right">
                     <span>Enviar</span>
                   </button>
                 </div>

@@ -1,17 +1,77 @@
 /* LOGO Y DATOS DE CONTACTO */
 /* COLOR DE LA MARCA   rgba(32,49,67,1) #203143 */
-/* AZUL MAS OSCURO PARA HOVERS rgba(23, 40, 57, 1)  #102941*/
+/* AZUL MAS OSCURO PARA HOVERS rgba(23, 40, 57, 1)  #102941
+
+rgb(151, 165, 141)*/
 
 * {
   font-family: 'Open Sans', sans-serif;
   color: #fff;
 }
-.bg {
+.cards {
   margin-top: 100px;
-  background-color: #203143;
-  height: 800px;
+  background-color: rgba(32, 49, 67, 0.9);
+  background-size: 100% 100%;
+  padding: 100px 0px 100px 0px;
 }
 
-.cards {
-  height: 800px;
+.title {
+  font-family: 'Cantata One', serif;
+  font-size: 34px;
+}
+
+#link-services {
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  border-radius: 2px;
+}
+
+/* Sweep To Right */
+.hvr-sweep-to-right {
+  padding: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  border: 1px solid #fff;
+}
+.hvr-sweep-to-right:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #e1e2e1;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-right:hover,
+.hvr-sweep-to-right:focus,
+.hvr-sweep-to-right:active {
+  color: white;
+}
+.hvr-sweep-to-right:hover:before,
+.hvr-sweep-to-right:focus:before,
+.hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }

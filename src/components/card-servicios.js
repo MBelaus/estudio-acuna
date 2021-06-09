@@ -5,70 +5,14 @@ class CardServicio extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div class="container">
-          <div class="row">
-            <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="/" class="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="/" class="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="/" class="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="/" class="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="/" class="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
-            </div>
-            <div class="card">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="/" class="btn btn-primary">
-                  Go somewhere
-                </a>
-              </div>
-            </div>
-          </div>
+        <div className="card d-flex justify-content-center align-items-center flip-card-container">
+          <img src={this.props.img} className="img-service filter" alt="..." />
+          <h6 id="titulo">{this.props.title}</h6>
         </div>
+
+        {/*         <div className="card">
+          <img src={handshake} alt="" className="img-service" />
+        </div> */}
       </React.Fragment>
     );
   }
