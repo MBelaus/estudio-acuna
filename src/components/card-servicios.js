@@ -13,7 +13,7 @@ class CardServicio extends React.Component {
             </div>
             <div className="flip-card-back d-flex flex-column justify-content-center align-items-center">
               <h6 className="mb-4">{this.props.title}</h6>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt neque, veritatis hic</p>
+              <p>{this.props.desc}</p>
             </div>
           </div>
         </div>

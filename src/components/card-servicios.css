@@ -74,10 +74,11 @@
   color: white;
   transform: rotateY(180deg);
 }
-.flip-card-back h6 {
+h6 {
   text-align: center;
   font-weight: 700;
 }
 .flip-card-back p {
   text-align: justify;
+  font-size: 15px;
 }
