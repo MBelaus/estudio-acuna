@@ -1,6 +1,8 @@
 import React from 'react';
 import Hero from './hero.js';
-import ServiciosHome from './home-servicios';
+import ServiciosHome from './home-servicios.js';
+import Equipo from './home-equipo.js'
+import Valores from './valores.js'
 
 class Home extends React.Component {
   render() {
@@ -8,6 +10,8 @@ class Home extends React.Component {
       <React.Fragment>
         <Hero />
         <ServiciosHome />
+        <Valores />
+        <Equipo />
       </React.Fragment>
     );
   }

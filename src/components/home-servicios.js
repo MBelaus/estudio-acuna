@@ -13,12 +13,12 @@ class ServiciosHome extends React.Component {
     return (
       <React.Fragment>
         <div className="container-fluid nopadding">
-          <div className="row align-items-center justify-content-center cards">
+          <div className="row align-items-center justify-content-center cards top100">
             <div className="col-lg-2">
               <h2 className="title">Nuestras Especialidades</h2>
               <br />
               <button className="btn hvr-sweep-to-right">
-                <a href="/" id="link-services">
+                <a href="/" id="links-home">
                   Más servicios
                 </a>
               </button>
@@ -28,8 +28,8 @@ class ServiciosHome extends React.Component {
                 <CardServicio img={law} title={'Derecho Penal de la Empresa'} desc={'Somos una firma que se especializa en derecho penal económico y tributario, siendo una de los estudios más reconocidos en esta materia.'} />
                 <CardServicio img={family} title={'Derecho de Familia'} desc={'El estudio cuenta con personal capacitado para asesorarlo en el trámites de divorcios, cuotas alimentarias, regímenes de visita, declaratorias de herederos y juicios sucesorios.'} />
                 <CardServicio img={handcuffs} title={'Derecho Penal'} desc={'El derecho penal en todas sus dimensiones, conforma una de las áreas de mayor especialización del estudio y se encuentra a cargo del Dr. Santiago Acuña.'} />
-                <CardServicio img={handshake} title={'Derecho Societario'} desc={'Acompañamos a las empresas desde su creación, '} />
-                <CardServicio img={justice} title={'Derecho Civil y Comercial'} desc={'Damos soluciones rápidas a todo tipo de conflicto civil como daños y perjuicios, accidentes de tránsito, mala praxis y contratos en general.'} />
+                <CardServicio img={handshake} title={'Governance, Risk & Compliance'} desc={'En construccion...'} />
+                <CardServicio img={justice} title={'Asesoramiento para Empresas'} desc={'En construccion...'} />
                 <CardServicio img={worker} title={'Derecho Laboral'} desc={'Otra de nuestras ramas de mayor desempeño, es el derecho laboral, contamos con un equipo especializado en Derecho del Trabajo, dirigido por la Dra. Camila Obregón.'} />
               </div>
             </div>

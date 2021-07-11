@@ -8,8 +8,11 @@ rgb(151, 165, 141)*/
   font-family: 'Open Sans', sans-serif;
   color: #fff;
 }
-.cards {
+.top100{
   margin-top: 100px;
+}
+
+.cards {
   background-color: rgba(32, 49, 67, 0.9);
   background-size: 100% 100%;
   padding: 100px 0px 100px 0px;
@@ -20,7 +23,7 @@ rgb(151, 165, 141)*/
   font-size: 34px;
 }
 
-#link-services {
+#links-home {
   text-decoration: none;
   color: white;
 }
