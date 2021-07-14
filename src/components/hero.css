@@ -58,9 +58,8 @@ textarea {
 }
 
 .btn-hero {
-  background-color: #203143;
   color: #fff;
-  border: none;
+  border: 1px solid #d4b036;
 }
 
 .btn-hero:hover {

@@ -1,11 +1,11 @@
-import React from 'react'
-import './home-equipo.css'
+import React from 'react';
+import './home-equipo.css';
 
 class Equipo extends React.Component {
-    render() {
-      return (
-        <React.Fragment>
-<div className="container-fluid nopadding">
+  render() {
+    return (
+      <React.Fragment>
+        <div className="container-fluid nopadding">
           <div className="row align-items-center justify-content-center cards">
             <div className="col-lg-2">
               <h2 className="title">Los socios del estudio</h2>
@@ -23,9 +23,9 @@ class Equipo extends React.Component {
             </div>
           </div>
         </div>
-        </React.Fragment>
-      );
-    }
+      </React.Fragment>
+    );
   }
+}
 
-export default Equipo
+export default Equipo;

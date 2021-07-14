@@ -16,15 +16,15 @@ class Header extends React.Component {
               <div className="col-lg-4 datos">
                 <ul className="datos-contato">
                   <li>
-                    <i className="fas fa-map-marker-alt fa-lg"></i>
+                    <i className="fas fa-map-marker-alt fa-lg header-icon"></i>
                     Av. Pueyrredón 724. Torre 3 Piso 15 Dpto "D"
                   </li>
                   <li>
-                    <i className="fas fa-phone fa-lg"></i>
+                    <i className="fas fa-phone fa-lg header-icon"></i>
                     3512308918 - 3512071409
                   </li>
                   <li>
-                    <i className="fas fa-envelope fa-lg"></i>estudiojuridicosva@gmail.com
+                    <i className="fas fa-envelope fa-lg header-icon"></i>estudiojuridicosva@gmail.com
                   </li>
                 </ul>
               </div>
