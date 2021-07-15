@@ -17,10 +17,6 @@ class CardServicio extends React.Component {
             </div>
           </div>
         </div>
-
-        {/*         <div className="card">
-          <img src={handshake} alt="" className="img-service" />
-        </div> */}
       </React.Fragment>
     );
   }

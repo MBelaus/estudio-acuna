@@ -60,12 +60,3 @@ p {
 textarea {
   resize: none;
 }
-
-.btn-hero {
-  color: #fff;
-  border: 1px solid #d4b036;
-}
-
-.btn-hero:hover {
-  color: #fff;
-}

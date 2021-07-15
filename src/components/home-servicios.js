@@ -18,7 +18,7 @@ class ServiciosHome extends React.Component {
               <h2 className="title">Nuestras Especialidades</h2>
               <br />
               <button className="btn hvr-sweep-to-right">
-                <a href="/" id="links-home">
+                <a href="/" className="links-home">
                   Más servicios
                 </a>
               </button>

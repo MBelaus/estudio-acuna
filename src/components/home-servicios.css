@@ -22,14 +22,25 @@ rgb(151, 165, 141)*/
   font-size: 34px;
 }
 
-#links-home {
+.links-home {
   text-decoration: none;
-  color: white;
+  color: rgba(32, 49, 67, 0.9);
 }
+
+/* .links-home:hover {
+  text-decoration: none;
+  color: #fff;
+} */
 
 .btn {
   border-radius: 2px;
   background-color: #d4b036;
+}
+
+.btn:hover,
+.btn:hover * {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* Sweep To Right */
