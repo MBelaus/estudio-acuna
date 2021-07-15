@@ -9,7 +9,7 @@ class Hero extends React.Component {
         <link href="https://fonts.googleapis.com/css2?family=Cantata+One&display=swap" rel="stylesheet" />
         <div className="container-fluid">
           <div className="row hero-bg justify-content-center align-items-center paddupdown50">
-            <div className="col-xl-3 col-md-5 col-xs-6 col-6 descripcion">
+            <div className="col-xl-4 col-lg-4 col-md-8 col-sm-8 col-9 descripcion">
               <h1 className="titulo">Acuña & Asociados</h1>
               <div className="col-lg-12 col-md-12 col-xs-12 col-12 hr"></div>
               <p>
@@ -17,7 +17,7 @@ class Hero extends React.Component {
               </p>
             </div>
             <div className="col-lg-2"></div>
-            <div className="col-lg-3 col-md-6 col-xs-7 col-9 form-contacto">
+            <div className="col-lg-3 col-md-8 col-sm-8 col-9 form-contacto">
               <h1>Hablemos!</h1>
               <form>
                 <div className="mb-3">
@@ -35,7 +35,7 @@ class Hero extends React.Component {
                   </label> */}
                   <textarea name="descripcion" className="form-control" id="descripcion" rows="3" placeholder="Contanos brevemente tu caso..."></textarea>
                 </div>
-                <div className="col-lg-3 col-md-3 mx-auto">
+                <div className="d-flex justify-content-center">
                   <button type="submit" className="btn btn-hero hvr-sweep-to-right">
                     <span>Enviar</span>
                   </button>
