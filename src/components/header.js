@@ -10,11 +10,11 @@ class Header extends React.Component {
       <React.Fragment>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
-        <div className="container-fluid header nopadding">
-          <div className="row datos-contato">
+        <div className="container-fluid">
+          <div className="row row-contacto">
             <div className="col-lg-12">
               <div className="col-lg-4 datos">
-                <ul className="datos-contato">
+                <ul className="datos-contacto">
                   <li>
                     <i className="fas fa-map-marker-alt fa-lg header-icon"></i>
                     Av. Pueyrredón 724. Torre 3 Piso 15 Dpto "D"
@@ -32,7 +32,7 @@ class Header extends React.Component {
           </div>
           <div className="row ">
             <div className="col-lg-12 d-flex justify-content-center" id="logo">
-              <img src={logo} alt="as" className="logo" />
+              <img src={logo} alt="logo" className="logo" />
             </div>
           </div>
         </div>

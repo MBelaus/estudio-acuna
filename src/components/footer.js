@@ -11,7 +11,7 @@ class Footer extends React.Component {
               <ul id="ul-footer-main">
                 <li>
                   <h6>NUESRTAS REDES</h6>
-                  <ul className="ul-footer-sub nopadding ul-redes">
+                  <ul className="ul-footer-sub ul-redes">
                     <li>
                       <i class="fab fa-facebook-f"></i>
                     </li>
@@ -25,7 +25,7 @@ class Footer extends React.Component {
                 </li>
                 <li>
                   <h6>EL ESTUDIO</h6>
-                  <ul className="ul-footer-sub nopadding">
+                  <ul className="ul-footer-sub ">
                     <li>Abogados</li>
                     <li>Blog</li>
                     <li>Noticias</li>
@@ -33,7 +33,7 @@ class Footer extends React.Component {
                 </li>
                 <li id="footer-especialidades">
                   <h6>ESPECIALIDADES</h6>
-                  <ul className="ul-footer-sub nopadding">
+                  <ul className="ul-footer-sub ">
                     <li>Derecho Penal de la Empresa</li>
                     <li>Derecho de Familia</li>
                     <li>Derecho Penal</li>
@@ -44,7 +44,7 @@ class Footer extends React.Component {
                 </li>
                 <li>
                   <h6>CONTACTO</h6>
-                  <ul className="ul-footer-sub nopadding">
+                  <ul className="ul-footer-sub ">
                     <li>
                       <i className="fas fa-map-marker-alt fa-lg footer-icon"></i>
                       Av. Pueyrredón 724. Torre 3 Piso 15 Dpto "D"

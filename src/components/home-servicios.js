@@ -12,8 +12,8 @@ class ServiciosHome extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container-fluid nopadding">
-          <div className="row align-items-center justify-content-center cards top100">
+        <div className="container-fluid">
+          <div className="row align-items-center justify-content-center cards top100 paddupdown50">
             <div className="col-lg-2">
               <h2 className="title">Nuestras Especialidades</h2>
               <br />

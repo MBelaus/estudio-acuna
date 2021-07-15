@@ -5,9 +5,9 @@ class FullNavbar extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container-fluid nopadding" id="full-navbar">
+        <div className="container-fluid" id="full-navbar">
           <div className="row">
-            <div className="col-lg-12 nopadding">
+            <div className="col-lg-12 nav-full">
               <ul className="nav-full">
                 <li className="hvr-underline-from-center">Estudio Jurídico</li>
                 <li className="hvr-underline-from-center">Especialidades</li>

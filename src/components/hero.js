@@ -7,18 +7,17 @@ class Hero extends React.Component {
       <React.Fragment>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Cantata+One&display=swap" rel="stylesheet" />
-        <div className="container-fluid nopadding">
-          <div className="row hero-bg">
-            <div className="col-lg-1"></div>
-            <div className="col-lg-4 descripcion">
+        <div className="container-fluid">
+          <div className="row hero-bg justify-content-center align-items-center paddupdown50">
+            <div className="col-xl-3 col-md-5 col-xs-6 col-6 descripcion">
               <h1 className="titulo">Acuña & Asociados</h1>
-              <div className="hr"></div>
+              <div className="col-lg-12 col-md-12 col-xs-12 col-12 hr"></div>
               <p>
                 Somos un grupo de abogados especialistas en diversas ramas del derecho, siendo por ello un <strong>estudio jurídico integral</strong>. <br /> Asesoramos a personas físicas y empresas de todo el país. No dudes en hacer tu consulta, te estamos esperando!
               </p>
             </div>
-            <div className="col-lg-3"></div>
-            <div className="col-lg-3 form-contacto">
+            <div className="col-lg-2"></div>
+            <div className="col-lg-3 col-md-6 col-xs-7 col-9 form-contacto">
               <h1>Hablemos!</h1>
               <form>
                 <div className="mb-3">
@@ -36,7 +35,7 @@ class Hero extends React.Component {
                   </label> */}
                   <textarea name="descripcion" className="form-control" id="descripcion" rows="3" placeholder="Contanos brevemente tu caso..."></textarea>
                 </div>
-                <div className="col-3 mx-auto">
+                <div className="col-lg-3 col-md-3 mx-auto">
                   <button type="submit" className="btn btn-hero hvr-sweep-to-right">
                     <span>Enviar</span>
                   </button>

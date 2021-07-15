@@ -5,7 +5,7 @@ class Equipo extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container-fluid nopadding">
+        <div className="container-fluid">
           <div className="row align-items-center justify-content-center cards">
             <div className="col-lg-2">
               <h2 className="title">Los socios del estudio</h2>
