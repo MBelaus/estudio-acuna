@@ -1,5 +1,10 @@
 import React from 'react';
 import './valores.css';
+import avatar from '../svg-services/2avatar.svg';
+import professional from '../svg-services/3professional.svg';
+/* import excellence from '../svg-services/1excellence.svg';
+import badge from '../svg-services/4badge.svg'; */
+import star from '../svg-services/1star.svg';
 
 class Valores extends React.Component {
   render() {
@@ -9,12 +14,25 @@ class Valores extends React.Component {
           <div className="row paddupdown50">
             <div className="col-lg-12">
               <h1 id="valores-title">Cultura y Valores</h1>
-              <div className="valores d-flex justify-content-center mt-5">
+              <div className="valores d-flex justify-content-center mt-5 col-lg-12">
                 <ul id="ul-valores">
-                  <li>TRANSPARENCIA</li>
-                  <li>CALIDAD PROFESIONAL</li>
-                  <li>EXCELENCIA</li>
+                  <li>
+                    <img src={avatar} alt="" />
+                    <p>EXPERIENCIA</p>
+                  </li>
+                  <li>
+                    <img src={professional} alt="" />
+                    <p>PROFESIONALISMO</p>
+                  </li>
+                  <li>
+                    <img src={star} alt="" />
+                    <p>EXCELENCIA</p>
+                  </li>
                 </ul>
+              </div>
+              <div className="container">
+                <div className="line"></div>
+                <div className="line"></div>
               </div>
             </div>
           </div>

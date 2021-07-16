@@ -1,6 +1,17 @@
 /* LOGO Y DATOS DE CONTACTO */
 /* COLOR DE LA MARCA   rgba(32,49,67,1) #203143 */
 /* AZUL MAS OSCURO PARA HOVERS rgba(23, 40, 57, 1)  #102941 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 1399px) {
+  .line {
+    display: none;
+  }
+}
 
 #valores-title {
   color: #203143;
@@ -9,18 +20,39 @@
 }
 
 .cultura {
-  background-color: red; /* #f9f9f9; */
+  background-color: #f9f9f9;
   background-size: 100% 100%;
 }
 
 #ul-valores {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 
-#ul-valores li {
-  margin: 50px 75px 0px 75px;
+#ul-valores img {
+  margin: 0px 110px 0px 110px;
+  width: 5rem;
+}
+
+#ul-valores p {
+  color: #203143;
+  text-align: center;
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.line {
+  height: 2px;
+  width: 100px;
+  background-color: black;
+  position: relative;
+  left: 755px;
+  bottom: 115px;
+}
+
+.line:nth-child(2) {
+  left: 435px;
 }
