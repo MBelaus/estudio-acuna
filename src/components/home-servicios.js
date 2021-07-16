@@ -13,7 +13,7 @@ class ServiciosHome extends React.Component {
     return (
       <React.Fragment>
         <div className="container-fluid">
-          <div className="row align-items-center justify-content-center cards top100 paddupdown50">
+          <div className="row align-items-center justify-content-center cards paddupdown50">
             <div className="col-lg-2">
               <h2 className="title">Nuestras Especialidades</h2>
               <br />

@@ -21,7 +21,8 @@
 /* UTILS */
 
 * {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 .row-contacto {
@@ -49,6 +50,7 @@
 }
 
 .datos-contacto {
+  margin-top: 5px;
   width: 100vw;
   list-style-type: none;
   display: flex;

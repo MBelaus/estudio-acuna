@@ -5,10 +5,12 @@ class CardEquipo extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="card">
-          <img src={this.props.img} className="card-img-top card-img" alt="..." />
-          <div className="card-body d-flex align-items-end justify-content-center nopadding">
-            <h5>{this.props.title}</h5>
+        <div className="col-lg-5 col-md-8 mx-4 my-2">
+          <div className="card nopadding">
+            <img src={this.props.img} className="card-img-top img-card-equipo" alt="..." />
+            <div className="card-body d-flex align-items-end justify-content-center nopadding">
+              <h5>{this.props.title}</h5>
+            </div>
           </div>
         </div>
       </React.Fragment>

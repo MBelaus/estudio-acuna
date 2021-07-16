@@ -4,6 +4,12 @@
 
 rgb(151, 165, 141)*/
 
+@media (max-width: 417px) {
+  .title {
+    text-align: center;
+  }
+}
+
 * {
   font-family: 'Open Sans', sans-serif;
   color: #fff;

@@ -1,6 +1,12 @@
 /* LOGO Y DATOS DE CONTACTO */
 /* COLOR DE LA MARCA   rgba(32,49,67,1) #203143 */
 /* AZUL MAS OSCURO PARA HOVERS rgba(23, 40, 57, 1)  #102941*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 @media (max-width: 991px) {
   .form-contacto {
     margin-top: 30px;
