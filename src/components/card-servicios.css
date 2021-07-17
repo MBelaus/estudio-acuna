@@ -3,7 +3,7 @@
   height: 15rem;
   margin: 8px;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+  border-radius: 8px;
   position: relative;
   z-index: 1;
   background: inherit;
@@ -25,8 +25,8 @@
 }
 
 .img-service {
-  width: 6rem;
-  height: 6rem;
+  width: 5rem;
+  height: 5rem;
 }
 
 .filter {
@@ -40,6 +40,8 @@
 }
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
+  width: 210px !important;
+  height: 270px !important;
   background-color: transparent;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -73,6 +75,8 @@
 .flip-card-back {
   color: white;
   transform: rotateY(180deg);
+  background: wheat;
+  padding: 15px;
 }
 h6 {
   text-align: center;
