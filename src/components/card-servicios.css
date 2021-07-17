@@ -1,3 +1,63 @@
+@media (max-width: 1168px) {
+  .card {
+    right: 20px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .card {
+    right: 30px;
+  }
+}
+
+@media (max-width: 940px) {
+  .card {
+    right: 45px;
+  }
+}
+
+@media (max-width: 800px) {
+  .card {
+    right: 58px;
+  }
+}
+
+@media (max-width: 775px) {
+  .card {
+    right: 58px;
+  }
+}
+
+@media (max-width: 685px) {
+  .card {
+    right: 65px;
+  }
+}
+
+@media (max-width: 625px) {
+  .card {
+    right: 70px;
+  }
+}
+
+@media (max-width: 551px) {
+  .card {
+    right: 80px;
+  }
+}
+
+@media (max-width: 520px) {
+  .card {
+    right: 80px;
+  }
+}
+
+@media (max-width: 401px) {
+  .card {
+    right: 90px;
+  }
+}
+
 .card {
   width: 15rem;
   height: 15rem;
@@ -8,6 +68,10 @@
   z-index: 1;
   background: inherit;
   overflow: hidden;
+}
+
+.relative {
+  position: relative;
 }
 
 .card:before {

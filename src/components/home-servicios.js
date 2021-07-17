@@ -14,7 +14,8 @@ class ServiciosHome extends React.Component {
       <React.Fragment>
         <div className="container-fluid">
           <div className="row align-items-center justify-content-center cards paddupdown50">
-            <div className="col-xl-2 col-lg-3 col-md-4 col-sm-12 col-12 mb-3 d-md-block d-sm-flex d-flex flex-column align-items-center">
+            <div className="col-xl-1"></div>
+            <div className="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-12 mb-3 d-xl-block d-lg-flex d-md-flex d-sm-flex d-flex flex-column align-items-center">
               <h2 className="title">Nuestras Especialidades</h2>
               <br />
               <button className="btn hvr-sweep-to-right">
@@ -23,7 +24,7 @@ class ServiciosHome extends React.Component {
                 </a>
               </button>
             </div>
-            <div className="col-lg-6 col-md-3 col-sm-4 col-7">
+            <div className="col-xl-7 col-lg-12 col-md-12 col-sm-2 col-2">
               <div className="row justify-content-center">
                 <CardServicio img={law} title={'Derecho Penal de la Empresa'} desc={'Somos una firma que se especializa en derecho penal económico y tributario, siendo una de los estudios más reconocidos en esta materia.'} />
                 <CardServicio img={family} title={'Derecho de Familia'} desc={'El estudio cuenta con personal capacitado para asesorarlo en el trámites de divorcios, cuotas alimentarias, regímenes de visita, declaratorias de herederos y juicios sucesorios.'} />

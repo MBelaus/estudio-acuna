@@ -17,7 +17,7 @@ class Equipo extends React.Component {
                 </a>
               </button>
             </div>
-            <div className="col-lg-6 col-md-3 col-sm-4 col-7">
+            <div className="col-lg-6 col-md-3 col-sm-4 col-5">
               <div className="row justify-content-center">
                 <CardEquipo img={img} title="Santiago Acuña" />
                 <CardEquipo img={img} title="Camila Obregón" />

@@ -1,3 +1,22 @@
+@media (max-width: 950px) {
+  #footer-especialidades {
+    display: none;
+  }
+}
+
+@media (max-width: 715px) {
+  #footer-estudio {
+    display: none;
+  }
+}
+
+@media (max-width: 593px) {
+  #footer-redes {
+    margin-bottom: 15px;
+    width: 350.02px;
+  }
+}
+
 .footer-bg {
   background-color: #333;
   border-top: 5px solid #203143;
@@ -7,15 +26,12 @@
 #ul-footer-main {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 
 .ul-footer-sub {
   list-style-type: none;
-}
-
-.pad {
-  padding: 0px 200px 0px 200px;
 }
 
 ul li h6 {

@@ -5,8 +5,8 @@ class CardServicio extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="col-lg-2 col-md-8 mx-5 my-2">
-          <div className="card flip-card d-flex justify-content-center align-items-center">
+        <div className="col-lg-2 col-md-2 mx-5 my-2 relative">
+          <div className="card flip-card d-flex justify-content-center align-items-center flex-wrap">
             <div className="flip-card-inner">
               <div className="flip-card-front d-flex flex-column align-items-center justify-content-center">
                 <img src={this.props.img} className="img-service filter" alt="..." />

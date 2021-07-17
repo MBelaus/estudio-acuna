@@ -7,9 +7,9 @@ class Footer extends React.Component {
       <React.Fragment>
         <div className="container-fluid">
           <div className="row footer-bg align-items-center">
-            <div className="col-lg-12 pad">
+            <div className="col-lg-12">
               <ul id="ul-footer-main">
-                <li>
+                <li id="footer-redes">
                   <h6>NUESRTAS REDES</h6>
                   <ul className="ul-footer-sub ul-redes nopadding">
                     <li>
@@ -23,7 +23,7 @@ class Footer extends React.Component {
                     </li>
                   </ul>
                 </li>
-                <li>
+                <li id="footer-estudio">
                   <h6>EL ESTUDIO</h6>
                   <ul className="ul-footer-sub nopadding">
                     <li>Abogados</li>
@@ -43,7 +43,7 @@ class Footer extends React.Component {
                   </ul>
                 </li>
                 <li>
-                  <h6>CONTACTO</h6>
+                  <h6 id="footer-contact-title">CONTACTO</h6>
                   <ul className="ul-footer-sub nopadding">
                     <li>
                       <i className="fas fa-map-marker-alt fa-lg footer-icon"></i>

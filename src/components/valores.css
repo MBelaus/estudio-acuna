@@ -29,6 +29,8 @@
   justify-content: center;
   flex-wrap: wrap;
   list-style-type: none;
+  position: relative;
+  right: 15px;
 }
 
 #ul-valores img {
