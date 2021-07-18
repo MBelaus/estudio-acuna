@@ -20,8 +20,7 @@ rgb(151, 165, 141)*/
 
 .cards {
   background: url(../services-bg.png) center center fixed;
-  background-size: cover; /* rgba(32, 49, 67, 0.9); */
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .title {

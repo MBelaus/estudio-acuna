@@ -16,15 +16,18 @@ class Header extends React.Component {
               <div className="col-lg-4 datos">
                 <ul className="datos-contacto">
                   <li>
-                    <i className="fas fa-map-marker-alt fa-lg header-icon"></i>
-                    Av. Pueyrredón 724. Torre 3 Piso 15 Dpto "D"
+                    <i className="fas fa-map-marker-alt fa-lg header-icon"></i>{' '}
+                    <a href="https://www.google.com/maps/place/Acu%C3%B1a+Estudio+Jur%C3%ADdico+Integral/@-31.4243694,-64.200093,17z/data=!3m1!4b1!4m5!3m4!1s0x9432a348be27d627:0xa9904094ed00176f!8m2!3d-31.4243694!4d-64.1979043" target="_blank" rel="noopener noreferrer">
+                      Av. Pueyrredón 724. Torre 3 Piso 15 Dpto "D"
+                    </a>
                   </li>
                   <li>
                     <i className="fas fa-phone fa-lg header-icon"></i>
-                    3512308918 - 3512071409
+                    <a href="tel:3512308918">3512308918 - 3512071409</a>
                   </li>
                   <li>
-                    <i className="fas fa-envelope fa-lg header-icon"></i>estudiojuridicosva@gmail.com
+                    <i className="fas fa-envelope fa-lg header-icon"></i>
+                    <a href="mailto:estudiojuridicosva@gmail.com">estudiojuridicosva@gmail.com</a>
                   </li>
                 </ul>
               </div>
