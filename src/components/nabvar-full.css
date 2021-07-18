@@ -6,8 +6,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: url(../background-nav.png) center; */
-  color: white;
   height: 70px;
   list-style-type: none;
   margin-right: 0px;
@@ -16,11 +14,14 @@
 .nav-full li {
   margin-right: 25px;
   padding: 24px 20px 16px 25px;
-  /* width: 182px; */
   text-align: center;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.5px;
+}
+
+.nav-full li a {
+  color: #fff;
 }
 
 @media (max-width: 949px) {
@@ -84,4 +85,8 @@
 
 .dropdown-toggle {
   color: #fff !important;
+}
+
+#estudio-page-link {
+  width: 182px;
 }

@@ -14,17 +14,17 @@ class Footer extends React.Component {
                   <ul className="ul-footer-sub ul-redes nopadding">
                     <li>
                       <a href="https://www.facebook.com/estudiojuridicosva" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-facebook-f"></i>
+                        <i className="fab fa-facebook-f"></i>
                       </a>
                     </li>
                     <li>
                       <a href="https://www.instagram.com/estudiojuridicosva/" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-instagram"></i>
+                        <i className="fab fa-instagram"></i>
                       </a>
                     </li>
                     <li>
                       <a href="https://www.linkedin.com/in/acu%C3%B1a-y-asociados-estudio-jur%C3%ADdico-integral-9b20201a7/" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-linkedin-in"></i>
+                        <i className="fab fa-linkedin-in"></i>
                       </a>
                     </li>
                   </ul>
@@ -59,7 +59,7 @@ class Footer extends React.Component {
                     </li>
                     <li>
                       <i className="fas fa-phone fa-lg footer-icon"></i>
-                      <a href="tel:3512308918">3512308918 - 3512071409</a>
+                      <a href="tel:3512308918">3512308918</a> - <a href="tel:3512071409">3512071409</a>
                     </li>
                     <li>
                       <i className="fas fa-envelope fa-lg footer-icon"></i>
@@ -72,8 +72,8 @@ class Footer extends React.Component {
           </div>
         </div>
         <span>
-          <a href="http://wa.link/yzkaoa" class="whatsapp" target="_blank">
-            <i class="fab fa-whatsapp"></i>
+          <a href="http://wa.link/yzkaoa" className="whatsapp" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-whatsapp"></i>
           </a>
         </span>
       </React.Fragment>

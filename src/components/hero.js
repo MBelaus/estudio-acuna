@@ -10,7 +10,7 @@ class Hero extends React.Component {
         <div className="container-fluid">
           <div className="row hero-bg justify-content-center align-items-center paddupdown50">
             <div className="col-xl-4 col-lg-4 col-md-8 col-sm-8 col-9 descripcion">
-              <h1 className="titulo">Acuña & Asociados</h1>
+              <h1 className="titulo-header">Acuña & Asociados</h1>
               <div className="col-lg-12 col-md-12 col-xs-12 col-12 hr"></div>
               <p>
                 Somos un grupo de abogados especialistas en diversas ramas del derecho, siendo por ello un <strong>estudio jurídico integral</strong>. <br /> Asesoramos a personas físicas y empresas de la provincia de Córdoba y todo el país.
