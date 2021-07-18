@@ -13,7 +13,7 @@ class Hero extends React.Component {
               <h1 className="titulo">Acuña & Asociados</h1>
               <div className="col-lg-12 col-md-12 col-xs-12 col-12 hr"></div>
               <p>
-                Somos un grupo de abogados especialistas en diversas ramas del derecho, siendo por ello un <strong>estudio jurídico integral</strong>. <br /> Asesoramos a personas físicas y empresas de todo el país.
+                Somos un grupo de abogados especialistas en diversas ramas del derecho, siendo por ello un <strong>estudio jurídico integral</strong>. <br /> Asesoramos a personas físicas y empresas de la provincia de Córdoba y todo el país.
               </p>
             </div>
             <div className="col-lg-2"></div>

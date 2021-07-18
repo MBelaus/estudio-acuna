@@ -50,11 +50,11 @@ class Footer extends React.Component {
                 </li>
                 <li>
                   <h6 id="footer-contact-title">CONTACTO</h6>
-                  <ul className="ul-footer-sub nopadding">
+                  <ul className="ul-footer-sub nopadding footer-contact">
                     <li>
                       <i className="fas fa-map-marker-alt fa-lg footer-icon"></i>
                       <a href="https://www.google.com/maps/place/Acu%C3%B1a+Estudio+Jur%C3%ADdico+Integral/@-31.4243694,-64.200093,17z/data=!3m1!4b1!4m5!3m4!1s0x9432a348be27d627:0xa9904094ed00176f!8m2!3d-31.4243694!4d-64.1979043" target="_blank" rel="noopener noreferrer">
-                        Av. Pueyrredón 724. Torre 3 Piso 15 Dpto "D"
+                        Av. Pueyrredón 724. Torre 3 Piso 16 Dpto. 4
                       </a>
                     </li>
                     <li>
