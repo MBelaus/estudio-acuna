@@ -13,12 +13,12 @@ class Hero extends React.Component {
               <h1 className="titulo">Acuña & Asociados</h1>
               <div className="col-lg-12 col-md-12 col-xs-12 col-12 hr"></div>
               <p>
-                Somos un grupo de abogados especialistas en diversas ramas del derecho, siendo por ello un <strong>estudio jurídico integral</strong>. <br /> Asesoramos a personas físicas y empresas de todo el país. No dudes en hacer tu consulta, te estamos esperando!
+                Somos un grupo de abogados especialistas en diversas ramas del derecho, siendo por ello un <strong>estudio jurídico integral</strong>. <br /> Asesoramos a personas físicas y empresas de todo el país.
               </p>
             </div>
             <div className="col-lg-2"></div>
             <div className="col-lg-3 col-md-8 col-sm-8 col-9 form-contacto">
-              <h1>Hablemos!</h1>
+              <h1 id="form-title">Hablemos!</h1>
               <form>
                 <div className="mb-3">
                   <input type="text" className="form-control" id="nombre" aria-describedby="nombreHelp" placeholder="Tu nombre" />

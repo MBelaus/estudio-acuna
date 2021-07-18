@@ -139,7 +139,6 @@
 .flip-card-back {
   color: white;
   transform: rotateY(180deg);
-  background: wheat;
   padding: 15px;
 }
 h6 {

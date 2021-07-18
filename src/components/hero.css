@@ -18,8 +18,8 @@
 }
 
 .hero-bg {
-  background-color: #d4b036;
-  background-size: 100% 100%;
+  background: url(../hero-bg.jpeg);
+  /* background-size: 100% 100%; */
 }
 
 .descripcion {
@@ -65,4 +65,8 @@ p {
 
 textarea {
   resize: none;
+}
+
+#form-title {
+  margin-top: 10px;
 }

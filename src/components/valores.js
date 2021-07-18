@@ -1,10 +1,9 @@
 import React from 'react';
 import './valores.css';
-import avatar from '../svg-services/2avatar.svg';
-import professional from '../svg-services/3professional.svg';
-/* import excellence from '../svg-services/1excellence.svg';
-import badge from '../svg-services/4badge.svg'; */
-import star from '../svg-services/1star.svg';
+import avatar from '../svg-services/avatar.svg';
+/* import professional from '../svg-services/3professional.svg'; */
+import professional from '../svg-services/professional.svg';
+import star from '../svg-services/star.svg';
 
 class Valores extends React.Component {
   render() {

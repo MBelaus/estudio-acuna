@@ -1,5 +1,6 @@
 import React from 'react';
 import './card-servicios.css';
+import fondo1 from '../fondo1.jpg';
 
 class CardServicio extends React.Component {
   render() {

@@ -1,6 +1,7 @@
 import React from 'react';
 import CardEquipo from './card-equipo.js';
-import img from '../svg-services/img.png';
+import santiago from '../santiago.png';
+import camila from '../camila.png';
 
 class Equipo extends React.Component {
   render() {
@@ -13,14 +14,14 @@ class Equipo extends React.Component {
               <br />
               <button className="btn hvr-sweep-to-right">
                 <a href="/" className="links-home">
-                  El equipo
+                  Conocer más
                 </a>
               </button>
             </div>
             <div className="col-lg-6 col-md-3 col-sm-4 col-5">
               <div className="row justify-content-center">
-                <CardEquipo img={img} title="Santiago Acuña" />
-                <CardEquipo img={img} title="Camila Obregón" />
+                <CardEquipo img={santiago} title="Santiago Acuña" />
+                <CardEquipo img={camila} title="Camila Obregón" />
               </div>
             </div>
           </div>
