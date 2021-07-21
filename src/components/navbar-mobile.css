@@ -21,7 +21,7 @@
 .bar {
   height: 5px;
   width: 100%;
-  background-color: #fff;
+  background-color: #999;
   display: block;
   border-radius: 5px;
   transition: 0.3s ease;

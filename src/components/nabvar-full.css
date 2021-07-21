@@ -1,5 +1,43 @@
+@media (max-width: 949px) {
+  #full-navbar {
+    display: none;
+  }
+}
+
+@media (max-width: 1469px) {
+  .dropdown-menu {
+    top: 12.5px !important;
+  }
+}
+
+@media (min-width: 1470px) {
+  .dropdown-menu {
+    left: -26px !important;
+    top: 12.5px !important;
+  }
+}
+
 #full-navbar {
+  padding: 20px 0px;
   background-color: rgba(32, 49, 67, 1);
+  position: fixed;
+  z-index: 100;
+  transition: 0.8s;
+}
+
+#full-navbar.sticky {
+  padding: 5px 0px;
+  top: 0px;
+}
+
+.sticky-logo {
+  width: 300px;
+  height: 80px;
+}
+
+.logo-nav {
+  width: 360px;
+  height: 100px;
 }
 
 .nav-full {
@@ -18,16 +56,6 @@
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.5px;
-}
-
-.nav-full li a {
-  color: #fff;
-}
-
-@media (max-width: 949px) {
-  #full-navbar {
-    display: none;
-  }
 }
 
 .hvr-underline-from-center {
@@ -68,19 +96,18 @@
 
 .dropdown-menu {
   position: absolute !important;
-  left: -26px !important;
-  top: 12.5px !important;
   background-color: rgba(32, 49, 67, 1);
 }
 
 .dropdown-item {
   color: #fff;
+  font-weight: lighter !important;
 }
 
 .dropdown-item:hover {
   background-color: rgba(32, 49, 67, 1);
   color: #fff;
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 .dropdown-toggle {
@@ -89,4 +116,5 @@
 
 #estudio-page-link {
   width: 182px;
+  margin-left: 10px;
 }

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@media (max-width: 991px) {
+  .data-side:nth-child(2) {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  #contacto-comp {
+    padding: 0px 20px 0px 20px;
+  }
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  list-style-type: none;
+}
+
+#contacto-comp {
+  background-color: #f9f9f9;
+}
+
+.contact-title {
+  color: #333;
+  font-family: 'Cantata One', serif;
+  text-align: center;
+  /* border-bottom: solid 1px #d4b036; */
+}
+
+.top50 {
+  margin-top: 50px;
+}
+
+.bottom100 {
+  margin-bottom: 100px;
+}
+
+.data-side,
+iframe {
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.data-side {
+  background-color: rgba(212, 176, 54, 0.1);
+  border-radius: 5px;
+}
+
+#contact-data li *,
+#contact-data li {
+  color: #333;
+}
+
+#contact-data li {
+  margin-bottom: 30px;
+}
+
+#contact-data li h6 {
+  font-size: 20px;
+}
+
+#contact-data li a {
+  font-size: 17px;
+}
+
+#contact-data li a:hover {
+  color: #d4b036;
+}
+
+.data-side form {
+  margin: 0px 32px 0px 32px;
+}
+
+.data-side form button {
+  padding: 10px 25px 10px 25px;
+}
+
+.contact-title::after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid #d4b036;
+  width: 30%;
+  position: relative;
+  bottom: -6px;
+  margin: 0px auto;
+}

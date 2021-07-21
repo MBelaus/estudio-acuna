@@ -1,7 +1,7 @@
 import React from 'react';
 import CardEquipo from './card-equipo.js';
-import santiago from '../santiago.png';
-import camila from '../camila.png';
+import santiago from '../images/santiago.png';
+import camila from '../images/camila.png';
 import './home-equipo.css';
 
 class Equipo extends React.Component {

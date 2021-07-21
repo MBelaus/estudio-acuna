@@ -13,6 +13,24 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .nav-breakpoints {
+    margin-top: 140px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .nav-breakpoints {
+    margin-top: 210px;
+  }
+}
+
+@media (max-width: 949px) {
+  .nav-breakpoints {
+    margin-top: 0px;
+  }
+}
+
 .paddupdown50 {
   padding: 50px 0px 50px 0px;
 }

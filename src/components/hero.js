@@ -7,7 +7,7 @@ class Hero extends React.Component {
       <React.Fragment>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Cantata+One&display=swap" rel="stylesheet" />
-        <div className="container-fluid">
+        <div className="container-fluid nav-breakpoints">
           <div className="row hero-bg justify-content-center align-items-center paddupdown50">
             <div className="col-xl-4 col-lg-4 col-md-8 col-sm-8 col-9 descripcion">
               <h1 className="titulo-header">Acuña & Asociados</h1>

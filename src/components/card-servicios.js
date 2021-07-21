@@ -12,7 +12,7 @@ class CardServicio extends React.Component {
                 <img src={this.props.img} className="img-service filter" alt="..." />
                 <h6 className="titulo-card">{this.props.title}</h6>
               </div>
-              <div className="flip-card-back d-flex flex-column justify-content-center align-items-center">
+              <div className="flip-card-back d-flex flex-column align-items-center">
                 <h6 className="mb-4">{this.props.title}</h6>
                 <p>{this.props.desc}</p>
               </div>

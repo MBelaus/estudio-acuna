@@ -1,8 +1,8 @@
 import React from 'react';
-import Hero from './hero.js';
-import ServiciosHome from './home-servicios.js';
-import Equipo from './home-equipo.js';
-import Valores from './valores.js';
+import Hero from './components/hero.js';
+import ServiciosHome from './components/home-servicios.js';
+import Equipo from './components/home-equipo.js';
+import Valores from './components/valores.js';
 
 class Home extends React.Component {
   render() {
