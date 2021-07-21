@@ -32,12 +32,12 @@
 #bar3 {
   transform: translateY(4px);
 }
-.nav li a {
+.nav li {
   color: #fff;
   font-size: 16px;
   text-decoration: none;
 }
-.nav li a:hover {
+.nav li:hover {
   font-weight: 600;
 }
 .nav li {
@@ -70,7 +70,7 @@
 }
 .change-bg {
   width: 550px;
-  height: 540px;
+  height: 600px;
   transform: translate(-60%, -30%);
 }
 .change .bar {
@@ -87,4 +87,8 @@
 }
 .change {
   display: block;
+}
+
+a {
+  text-decoration: none;
 }

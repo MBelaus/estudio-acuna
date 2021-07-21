@@ -9,7 +9,7 @@ class Contacto extends React.Component {
           <div className="container ">
             <div className="row">
               <div className="col-lg-12 nopadding">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.628327101129!2d-64.20009298424817!3d-31.424364803783657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a348be27d627%3A0xa9904094ed00176f!2sAcu%C3%B1a%20Estudio%20Jur%C3%ADdico%20Integral!5e0!3m2!1ses-419!2sar!4v1626820385242!5m2!1ses-419!2sar" width="100%" height="400" allowfullscreen="" loading="eager" title="mapa"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.628327101129!2d-64.20009298424817!3d-31.424364803783657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a348be27d627%3A0xa9904094ed00176f!2sAcu%C3%B1a%20Estudio%20Jur%C3%ADdico%20Integral!5e0!3m2!1ses-419!2sar!4v1626820385242!5m2!1ses-419!2sar" width="100%" height="400" allowfullscreen="" loading="eager" title="mapa" id="contact-map"></iframe>
               </div>
             </div>
 
@@ -35,7 +35,7 @@ class Contacto extends React.Component {
               </div>
               <div className="col-lg-7 col-md-12 offset-lg-1 data-side paddupdown50">
                 <h1 className="contact-title">Formulario de contacto</h1>
-                <form class="row g-3">
+                <form class="row g-3 top50">
                   <div class="col-md-4">
                     {/*                     <label for="inputEmail4" class="form-label">
                       Email

@@ -1,9 +1,8 @@
 import React from 'react';
 import './header.css';
-import logo_mobile from '../svg-services/logo_mobile.svg';
+
 import FullNavbar from './navbar-full';
 import MobileNavbar from './navbar-mobile';
-import { Link } from 'react-router-dom';
 
 class Header extends React.Component {
   render() {
@@ -32,13 +31,6 @@ class Header extends React.Component {
                   </li>
                 </ul>
               </div>
-            </div>
-          </div>
-          <div className="row ">
-            <div className="col-lg-12 d-flex justify-content-center" id="logo">
-              <Link to="/">
-                <img src={logo_mobile} alt="logo" className="logo" />
-              </Link>
             </div>
           </div>
         </div>
