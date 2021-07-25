@@ -20,6 +20,12 @@
     display: none;
   }
 }
+@media (max-width: 1200px) {
+  .datos-contacto {
+    padding-right: 40px;
+  }
+}
+
 /* UTILS */
 
 .nopadding {
