@@ -16,9 +16,15 @@
 
 .p-titulo {
   color: #333;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .p-descripcion {
   color: #333;
+  font-size: 17px;
+}
+
+#letra-capital {
+  color: #243143;
+  font-size: 50px;
 }

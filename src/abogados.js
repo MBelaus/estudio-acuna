@@ -19,7 +19,11 @@ class Abogados extends React.Component {
           <div className="row">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
               <p className="p-titulo">Santiago Virgilio Acuña</p>
-              <p className="p-descripcion">Nació en el mes de Mayo del año 1987 en la ciudad de Córdoba...</p>
+              <p className="p-descripcion">
+                <span id="letra-capital">N</span>ació en el mes de mayo del año 1987 en la ciudad de Córdoba...
+                <br />
+                En construccion...
+              </p>
             </div>
           </div>
         </div>
