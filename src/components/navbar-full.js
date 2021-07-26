@@ -54,7 +54,9 @@ class FullNavbar extends React.Component {
                     Estudio Jurídico
                   </li>
 
-                  <li className="hvr-underline-from-center">Abogados</li>
+                  <Link to="/abogados">
+                    <li className="hvr-underline-from-center">Abogados</li>
+                  </Link>
 
                   <li className="hvr-underline-from-center">Especialidades</li>
 
@@ -71,7 +73,7 @@ class FullNavbar extends React.Component {
                         <li className="dropdown-item">Blog</li>
                       </Link>
                       <li className="dropdown-item">Prensa</li>
-                      <li className="dropdown-item">Noticias</li>
+                      <li className="dropdown-item">Novedades</li>
                     </ul>
                   </li>
                 </ul>

@@ -7,12 +7,6 @@ class Contacto extends React.Component {
       <React.Fragment>
         <div className="container-fluid paddupdown50 nav-breakpoints" id="contacto-comp">
           <div className="container ">
-            <div className="row">
-              <div className="col-lg-12 nopadding">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.628327101129!2d-64.20009298424817!3d-31.424364803783657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a348be27d627%3A0xa9904094ed00176f!2sAcu%C3%B1a%20Estudio%20Jur%C3%ADdico%20Integral!5e0!3m2!1ses-419!2sar!4v1626820385242!5m2!1ses-419!2sar" width="100%" height="400" allowfullscreen="" loading="eager" title="mapa" id="contact-map"></iframe>
-              </div>
-            </div>
-
             <div className="row top50 bottom100">
               <div className="col-lg-4 col-md-12 data-side paddupdown50">
                 <h1 className="contact-title">Contactanos</h1>
@@ -63,6 +57,11 @@ class Contacto extends React.Component {
                     </button>
                   </div>
                 </form>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-12 nopadding">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.628327101129!2d-64.20009298424817!3d-31.424364803783657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a348be27d627%3A0xa9904094ed00176f!2sAcu%C3%B1a%20Estudio%20Jur%C3%ADdico%20Integral!5e0!3m2!1ses-419!2sar!4v1626820385242!5m2!1ses-419!2sar" width="100%" height="400" allowfullscreen="" loading="eager" title="mapa" id="contact-map"></iframe>
               </div>
             </div>
           </div>

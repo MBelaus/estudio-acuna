@@ -23,7 +23,7 @@
 }
 
 .contact-title {
-  color: #333;
+  color: #f9f9f9;
   font-family: 'Cantata One', serif;
   text-align: center;
   /* border-bottom: solid 1px #d4b036; */
@@ -43,13 +43,13 @@
 }
 
 .data-side {
-  background-color: rgba(212, 176, 54, 0.1);
+  background-color: rgba(32, 49, 67, 0.75) /* rgba(212, 176, 54, 0.1) */;
   border-radius: 5px;
 }
 
 #contact-data li *,
 #contact-data li {
-  color: #333;
+  color: #f9f9f9;
 }
 
 #contact-data li {

@@ -1,0 +1,24 @@
+.abogados {
+  background: url(http://www.carlospousabogado.com/wp-content/uploads/2020/09/PORTADA_01.jpg) no-repeat;
+  height: 100vh;
+}
+
+.titulo-abogados {
+  margin-top: 100px;
+  font-family: 'Cantata One', serif;
+  font-size: 50px;
+}
+
+.p-abogados {
+  text-align: left;
+  font-size: 30px;
+}
+
+.p-titulo {
+  color: #333;
+  font-size: 30px;
+}
+
+.p-descripcion {
+  color: #333;
+}
