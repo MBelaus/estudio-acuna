@@ -8,9 +8,9 @@ class Abogados extends React.Component {
         <div className="container-fluid nav-breakpoints abogados">
           <div className="row justify-content-around">
             <div className="col-lg-1"></div>
-            <div className="col-xl-3 col-lg-4 col-md-8 col-sm-8 col-9 top100">
+            <div className="col-xl-3 col-lg-4 col-md-4 col-sm-8 col-9 top100">
               <h1 className="titulo-abogados">ABOGADO PENALISTA</h1>
-              <div className="col-lg-12 col-md-12 col-xs-12 col-12 hr"></div>
+              <div className="col-lg-12 col-md-12 col-xs-12 col-12 hr-abogados"></div>
               <p className="p-abogados">Santiago Virgilio Acuña</p>
             </div>
           </div>

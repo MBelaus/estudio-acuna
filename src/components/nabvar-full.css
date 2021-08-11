@@ -118,3 +118,8 @@
   width: 182px;
   margin-left: 10px;
 }
+
+.button-toggle {
+  background: none;
+  border: none;
+}

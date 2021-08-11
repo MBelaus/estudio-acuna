@@ -13,7 +13,7 @@ class FullNavbar extends React.Component {
     window.addEventListener('scroll', this.handleScroll);
   }
   componentWillUnmount() {
-    window.removeEventListener('scroll');
+    window.removeEventListener('scroll', this.handleScroll);
   }
   handleScroll = () => {
     if (window.pageYOffset > 10) {
@@ -26,7 +26,7 @@ class FullNavbar extends React.Component {
       }
     }
 
-    if (window.pageYOffset == 0) {
+    if (window.pageYOffset === 0) {
       if (!this.state.logo) {
         this.setState({ logo: true });
       }
@@ -50,10 +50,11 @@ class FullNavbar extends React.Component {
               </div>
               <div className="col-xl-8 col-lg-12 nav-full">
                 <ul className="nav-full">
-                  <li className="hvr-underline-from-center" id="estudio-page-link">
-                    Estudio Jurídico
-                  </li>
-
+                  <Link to="/estudio-juridico">
+                    <li className="hvr-underline-from-center" id="estudio-page-link">
+                      Estudio Jurídico
+                    </li>
+                  </Link>
                   <Link to="/abogados">
                     <li className="hvr-underline-from-center">Abogados</li>
                   </Link>
@@ -65,9 +66,9 @@ class FullNavbar extends React.Component {
                   </Link>
 
                   <li className="dropdown hvr-underline-from-center">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button className="nav-link dropdown-toggle button-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                       Otros
-                    </a>
+                    </button>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                       <Link to="/blog">
                         <li className="dropdown-item">Blog</li>
