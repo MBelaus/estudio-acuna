@@ -1,0 +1,22 @@
+body {
+  background-color: #e6e6e6;
+}
+
+.band-title {
+  padding-left: 0px;
+}
+
+.estudio-title {
+  color: #f9f9f9;
+  font-family: 'Cantata One', serif;
+  font-size: 2.5rem;
+  text-align: right;
+  background-color: #203143;
+  padding: 35px 30px 35px 0px;
+  border-radius: 2px;
+}
+
+.estudio-p {
+  color: #333;
+  text-align: justify;
+}

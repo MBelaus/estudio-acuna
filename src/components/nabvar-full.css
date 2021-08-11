@@ -49,13 +49,27 @@
   margin-right: 0px;
 }
 
-.nav-full li {
-  margin-right: 25px;
+.nav-full .principal {
+  /* margin-right: 25px; */
+  margin: 0px 12.5px 0px 12.5px;
   padding: 24px 20px 16px 25px;
   text-align: center;
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.5px;
+}
+
+.nav-full .secundario {
+  /* margin-right: 25px; */
+  padding: 24px 20px 16px 25px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.nav-full li a {
+  color: #fff;
 }
 
 .hvr-underline-from-center {
@@ -122,4 +136,22 @@
 .button-toggle {
   background: none;
   border: none;
+  font-weight: 600;
 }
+
+.current {
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  border-bottom: 4px solid #fff;
+  padding-bottom: 15px;
+}
+/* .current:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 51%;
+  bottom: 0;
+  background: #fff;
+  height: 4px;
+  width: 82%;
+} */
